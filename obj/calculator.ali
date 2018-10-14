@@ -1,0 +1,58 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -g
+A -gnato
+A -fstack-check=specific
+A -gnata
+A -gnat12
+A -mtune=core2
+A -mmacosx-version-min=10.14.0
+A -fPIC
+A -feliminate-unused-debug-symbols
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U calculator%b		calculator.adb		57303626 NE OO PK
+Z system.exp_int%s	s-expint.adb		s-expint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U calculator%s		calculator.ads		eb5e8241 EE NE OO PK
+
+D calculator.ads	20181014092316 eb5e8241 calculator%s
+D calculator.adb	20181014093426 bc6eb467 calculator%b
+D system.ads		20180524051735 085b6ffb system%s
+D s-expint.ads		20180524051736 192336fc system.exp_int%s
+D s-parame.ads		20180524051736 48ec542b system.parameters%s
+D s-secsta.ads		20180524051736 20bbe636 system.secondary_stack%s
+D s-stoele.ads		20180524051736 2dc34a04 system.storage_elements%s
+X 1 calculator.ads
+1K9*Calculator 11l5 11e15 2|1b14 61l5 61t15
+3A10*booleanArray(boolean)<integer> 6r40 7r57 2|27r39 45r56 46r21
+4A10*octalArray(natural)<integer> 8r38 9r56 2|3r36 15r55 16r21
+6V14*binaryToDecimal{natural} 6>31 2|27b13 43l8 43t23
+6a31 Binary{3A10} 2|27b30 32r11 37r14
+7V14*decimalToBinary{3A10} 7>31 2|45b13 59l8 59t23
+7i31 Decimal{natural} 2|45b30 49r15
+8V14*octalToDecimal{natural} 8>30 2|3b13 13l8 13t22
+8a30 Octal{4A10} 2|3b29 7r24 8r29
+9V14*decimalToOctal{4A10} 9>30 2|15b13 25l8 25t22
+9i30 Decimal{natural} 2|15b29 19r15
+X 2 calculator.adb
+4i7 result{natural} 8m10 8r20 12r14
+5i7 n{natural} 8r45 9m10 9r15
+7i11 i{integer} 8r35
+16a7 resultArray{1|4A10} 21m10 24r14
+17i7 rest{integer} 19m7 21r35 22m10 22r18
+20i11 counter{integer} 21r22
+28i7 result{integer} 33m10 38m13 38r23 42r15
+29i7 index{natural} 31m7 38r37 40m10 40r19
+36i12 counter{integer} 37r21
+46a7 resultArray{1|3A10} 52m13 54m13 58r14
+47i7 rest{natural} 49m7 51r14 56m10 56r18
+50i11 counter{integer} 52r25 54r25
+
