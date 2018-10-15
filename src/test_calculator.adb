@@ -64,7 +64,7 @@ procedure Test_Calculator is
    end Test_2;
 
       procedure Test_3 is
-      Msg   : constant String := "Test_2: Decimal to octal";
+      Msg   : constant String := "Test_3: Decimal to octal";
       prueba : octalArray(1 .. 32);
       prueba1 : octalArray(1 .. 32);
       prueba2 : octalArray(1 .. 32);
@@ -84,22 +84,30 @@ procedure Test_Calculator is
    end Test_3;
 
    procedure Test_4 is
-      Msg   : constant String := "Test_3: Octal to decimal";
-      prueba : octalArray(1 .. 32);
-      --prueba1 : octalArray(1 .. 32);
-      --prueba2 : octalArray(1 .. 32);
+      Msg   : constant String := "Test_4: Octal to decimal";
+      prueba : octalArray(1 .. 2);
+      prueba1 : octalArray(1 .. 3);
+      prueba2 : octalArray(1 .. 4);
+      prueba3 : octalArray(1 .. 10);
+      prueba4 : octalArray(1 .. 3);
    begin
-      prueba := (0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
-      --prueba1 := (0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,7,2);
-      --prueba2 := (0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0);
+      prueba := (1,0);
+      prueba1 := (1,7,2);
+      prueba2 := (2,0,0,0);
+      prueba3 := (2,3,4,5,6,7,7,4,1,2);
+      prueba4 := (8,8,8);
 
-      Assert_True (octalToDecimal(prueba) = 32, Msg);
-      --Assert_True (octalToDecimal(10) = prueba, Msg);
+      Assert_True (octalToDecimal(prueba) = 8, Msg);
+      Assert_True (octalToDecimal(prueba1) = 122, Msg);
+      Assert_True (octalToDecimal(prueba2) = 1024, Msg);
+      Assert_True (octalToDecimal(prueba3) = 328695562, Msg);
+      Assert_True (octalToDecimal(prueba4) = 1, Msg);
    exception
       when Test_Assertion_Error=>
          Put_Line (Msg & " Failed (assertion)");
       when others =>
          Put_Line (Msg & " Failed (exception)");
+         raise;
    end Test_4;
 
 begin

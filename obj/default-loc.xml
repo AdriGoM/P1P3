@@ -1,10 +1,45 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file>/Users/adriangodoymartinez/Desktop/practica1_pr3/default.gpr</vfs_file>
+    <vfs_file>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/default.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/src/test_calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/src/test_assertions.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/src/test_assertions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/src/test_assertions.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/src/test_calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/src/test_assertions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
     <file_marker current="true" column=" 1" line=" 1" >
-      <vfs_project>/Users/adriangodoymartinez/Desktop/practica1_pr3/default.gpr</vfs_project>
-      <vfs_file>/Users/adriangodoymartinez/Desktop/practica1_pr3/src/calculator.adb</vfs_file>
+      <vfs_project>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >/Users/adriangodoymartinez/Desktop/practica1_pr3/default.gpr</vfs_file>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project >/Users/adriangodoymartinez/Desktop/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file >/Users/adriangodoymartinez/Desktop/practica1_pr3/src/calculator.adb</vfs_file>
     </file_marker>
   </Project>
   <Project >

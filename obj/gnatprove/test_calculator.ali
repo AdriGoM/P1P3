@@ -1,0 +1,99 @@
+V "GNAT Lib v2018"
+M P W=b
+A -x
+A ada
+A -gnatA
+A -g
+A -gnato
+A -fstack-check
+A -gnata
+A -gnat12
+A -gnatc
+P GP FX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U test_calculator%b	test_calculator.adb	fc1bc589 OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W calculator%s		calculator.adb		calculator.ali
+Z system%s		system.ads		system.ali
+W test_assertions%s	test_assertions.adb	test_assertions.ali
+
+D ada.ads		20180524051735 76789da1 ada%s
+D a-ioexce.ads		20180524051734 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051735 119b8fb3 ada.streams%s
+D a-textio.ads		20180524051736 881db35a ada.text_io%s
+D calculator.ads	20181015123349 eb5e8241 calculator%s
+D interfac.ads		20180524051734 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051734 e53d8b8e interfaces.c_streams%s
+D system.ads		20180524051735 085b6ffb system%s
+D s-crtl.ads		20180524051734 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20180524051736 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051736 48ec542b system.parameters%s
+D s-wchcon.ads		20180524051736 1b7d22d2 system.wch_con%s
+D test_assertions.ads	20181014070926 1487d8c5 test_assertions%s
+D test_calculator.adb	20181015125535 8bdf2c57 test_calculator%b
+X 1 ada.ads
+16K9*Ada 20e8 14|4r6 4r27
+X 4 a-textio.ads
+49K13*Text_IO 471e16 14|4w10 4r31
+263U14*Put_Line 14|33s10 35s10 61s10 63s10 81s10 83s10 107s10 109s10 114s4
+X 5 calculator.ads
+1K9*Calculator 11e15 14|6w6 6r27
+3A10*booleanArray(boolean)<integer> 14|12r16 13r17 14r17 40r16 41r17 42r17
+4A10*octalArray(natural)<integer> 14|68r16 69r17 70r17 88r16 89r17 90r17
+. 91r17 92r17
+6V14*binaryToDecimal{natural} 14|56s19 57s19 58s20
+7V14*decimalToBinary{3A10} 14|28s20 29s20 30s20
+8V14*octalToDecimal{natural} 14|100s20 101s20 102s20 103s20 104s20
+9V14*decimalToOctal{4A10} 14|76s20 77s20 78s20
+X 13 test_assertions.ads
+3K9*Test_Assertions 18e20 14|5w6 5r27
+4X4*Test_Assertion_Error 14|32r12 60r12 80r12 106r12
+12U14*Assert_True 14|28s7 29s7 30s7 56s6 57s6 58s7 76s7 77s7 78s7 100s7 101s7
+. 102s7 103s7 104s7
+X 14 test_calculator.adb
+8U11*Test_Calculator 8b11 119l5 119t20
+10U17 Test_1 36l8 36t14 115s4
+11a7 Msg{string} 28r50 29r53 30r53 33r20 35r20
+12a7 prueba{5|3A10} 16m7 28r42
+13a7 prueba1{5|3A10} 20m7 29r44
+14a7 prueba2{5|3A10} 24m7 30r44
+38U14 Test_2 64l8 64t14 116s4
+39a7 Msg{string} 56r50 57r52 58r54 61r20 63r20
+40a7 prueba{5|3A10} 44m7 56r36
+41a7 prueba1{5|3A10} 48m7 57r36
+42a7 prueba2{5|3A10} 52m7 58r37
+66U17 Test_3 84l8 84t14 117s4
+67a7 Msg{string} 76r49 77r52 78r53 81r20 83r20
+68a7 prueba{5|4A10} 72m7 76r41
+69a7 prueba1{5|4A10} 73m7 77r43
+70a7 prueba2{5|4A10} 74m7 78r44
+86U14 Test_4 111l8 111t14 118s4
+87a7 Msg{string} 100r48 101r51 102r52 103r57 104r49 107r20 109r20
+88a7 prueba{5|4A10} 94m7 100r35
+89a7 prueba1{5|4A10} 95m7 101r35
+90a7 prueba2{5|4A10} 96m7 102r35
+91a7 prueba3{5|4A10} 97m7 103r35
+92a7 prueba4{5|4A10} 98m7 104r35
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS test_calculator__test_1 0
+GG EK_GLOBALS test_calculator__test_1 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 test_assertions__assert_true__2 calculator__decimaltobinary local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_calculator__test_2 0
+GG EK_GLOBALS test_calculator__test_2 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 test_assertions__assert_true__2 calculator__binarytodecimal local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_calculator__test_3 0
+GG EK_GLOBALS test_calculator__test_3 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 test_assertions__assert_true__2 calculator__decimaltooctal local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_calculator__test_4 0
+GG EK_GLOBALS test_calculator__test_4 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 test_assertions__assert_true__2 calculator__octaltodecimal local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_calculator 0
+GG EK_GLOBALS test_calculator local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 6 ada__text_io__put_line__2 test_assertions__assert_true__2 calculator__binarytodecimal calculator__decimaltobinary calculator__octaltodecimal calculator__decimaltooctal local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

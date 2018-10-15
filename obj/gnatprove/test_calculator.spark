@@ -1,0 +1,31 @@
+{
+  "spark": [
+    {
+      "name": "Test_Calculator",
+      "sloc": [
+        {
+          "file": "test_calculator.adb",
+          "line": 8
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 1.60900002811104E-03,
+    "globals (basic)": 2.22899997606874E-03,
+    "globals/properties (advanced)": 6.03500008583069E-03,
+    "flow analysis": 7.69999969634227E-05,
+    "codepeer results": 7.00000009601354E-06,
+    "init_why_sections": 2.03999996301718E-04,
+    "translation of standard": 3.40900011360645E-03,
+    "translation of compilation unit": 3.80209982395172E-02,
+    "proof": 1.99999999495049E-06
+  }
+}

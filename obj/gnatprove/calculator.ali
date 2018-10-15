@@ -1,0 +1,64 @@
+V "GNAT Lib v2018"
+A -x
+A ada
+A -gnatA
+A -g
+A -gnato
+A -fstack-check
+A -gnata
+A -gnat12
+A -gnatc
+P GP FX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U calculator%b		calculator.adb		973a595f OO PK
+
+U calculator%s		calculator.ads		eb5e8241 OO PK
+
+D calculator.ads	20181015123349 eb5e8241 calculator%s
+D calculator.adb	20181015125706 7c64db1e calculator%b
+D system.ads		20180524051735 085b6ffb system%s
+X 1 calculator.ads
+1K9*Calculator 11l5 11e15 2|1b14 65l5 65t15
+3A10*booleanArray(boolean)<integer> 6r40 7r57 2|31r39 49r56 50r21
+4A10*octalArray(natural)<integer> 8r38 9r56 2|3r36 19r55 20r21
+6V14*binaryToDecimal{natural} 6>31 2|31b13 47l8 47t23
+6a31 Binary{3A10} 2|31b30 36r11 41r14
+7V14*decimalToBinary{3A10} 7>31 2|49b13 63l8 63t23
+7i31 Decimal{natural} 2|49b30 53r15
+8V14*octalToDecimal{natural} 8>30 2|3b13 17l8 17t22
+8a30 Octal{4A10} 2|3b29 8r24 9r13 13r29
+9V14*decimalToOctal{4A10} 9>30 2|19b13 29l8 29t22
+9i30 Decimal{natural} 2|19b29 23r15
+X 2 calculator.adb
+4i7 result{natural} 13m10 13r20 16r14
+5i7 n{natural} 12r30 14m10 14r15
+6i7 exponential{integer} 12m10 13r40
+8i11 i{integer} 9r19 13r35
+20a7 resultArray{1|4A10} 24r30 25m10 28r14
+21i7 rest{integer} 23m7 25r35 26m10 26r18
+24i11 counter{integer} 25r22
+32i7 result{integer} 37m10 42m13 42r23 46r15
+33i7 index{natural} 35m7 42r37 44m10 44r19
+40i12 counter{integer} 41r21
+50a7 resultArray{1|3A10} 56m13 58m13 62r14
+51i7 rest{natural} 53m7 55r14 60m10 60r18
+54i11 counter{integer} 56r25 58r25
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS calculator__binarytodecimal 0
+GG EK_GLOBALS calculator__binarytodecimal local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS calculator__decimaltobinary 0
+GG EK_GLOBALS calculator__decimaltobinary local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS calculator__octaltodecimal 0
+GG EK_GLOBALS calculator__octaltodecimal local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS calculator__decimaltooctal 0
+GG EK_GLOBALS calculator__decimaltooctal local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS calculator 0
+GG EK_GLOBALS calculator local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

@@ -1,0 +1,12 @@
+20181015125716
+-c
+-x
+ada
+-gnatA
+-g
+-gnato
+-fstack-check
+-gnata
+-gnat12
+-gnatc
+-gnates=/Users/adriangodoymartinez/Documents/Prácticas P3/practica1_pr3/obj/gnatprove/57edf8a2.tmp
