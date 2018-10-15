@@ -199,7 +199,7 @@ package ada_main is
    pragma Export (C, u00080, "system__stringsS");
    u00081 : constant Version_32 := 16#f5c4f553#;
    pragma Export (C, u00081, "system__file_control_blockS");
-   u00082 : constant Version_32 := 16#973a595f#;
+   u00082 : constant Version_32 := 16#16b08e00#;
    pragma Export (C, u00082, "calculatorB");
    u00083 : constant Version_32 := 16#eb5e8241#;
    pragma Export (C, u00083, "calculatorS");

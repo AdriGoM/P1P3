@@ -3,14 +3,12 @@ package body Calculator with SPARK_Mode => On is
    function octalToDecimal (Octal :octalArray) return Natural is
       result : Natural := 0;
       n : Natural := 0;
-      exponential : Integer := 0;
    begin
       for i in reverse Octal'Range loop
          if Octal(i) > 7 then
             return 1;
          end if;
-         exponential := 8 ** n;
-         result := result + Octal(i) * exponential;
+         result := result + Octal(i) * (8 ** n);
          n := n + 1;
       end loop;
       return result;
