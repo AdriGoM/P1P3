@@ -17,42 +17,48 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U calculator%b		calculator.adb		16b08e00 NE OO PK
+U calculator%b		calculator.adb		67929983 NE OO PK
+Z system.assertions%s	s-assert.adb		s-assert.ali
 Z system.exp_int%s	s-expint.adb		s-expint.ali
 Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 
-U calculator%s		calculator.ads		eb5e8241 EE NE OO PK
+U calculator%s		calculator.ads		f5df6269 EE NE OO PK
 
-D calculator.ads	20181015123349 eb5e8241 calculator%s
-D calculator.adb	20181015134246 fdee0c41 calculator%b
+D ada.ads		20180524051735 76789da1 ada%s
+D a-unccon.ads		20180524051736 0e9b276f ada.unchecked_conversion%s
+D calculator.ads	20181016090335 f5df6269 calculator%s
+D calculator.adb	20181016085804 924dfbea calculator%b
 D system.ads		20180524051735 085b6ffb system%s
+D s-assert.ads		20180524051736 cd8d2c94 system.assertions%s
+D s-exctab.ads		20180524051736 54135002 system.exception_table%s
 D s-expint.ads		20180524051736 192336fc system.exp_int%s
 D s-parame.ads		20180524051736 48ec542b system.parameters%s
 D s-secsta.ads		20180524051736 20bbe636 system.secondary_stack%s
+D s-stalib.ads		20180524051736 09bd3940 system.standard_library%s
 D s-stoele.ads		20180524051736 2dc34a04 system.storage_elements%s
-X 1 calculator.ads
-1K9*Calculator 11l5 11e15 2|1b14 63l5 63t15
-3A10*booleanArray(boolean)<integer> 6r40 7r57 2|29r39 47r56 48r21
-4A10*octalArray(natural)<integer> 8r38 9r56 2|3r36 17r55 18r21
-6V14*binaryToDecimal{natural} 6>31 2|29b13 45l8 45t23
-6a31 Binary{3A10} 2|29b30 34r11 39r14
-7V14*decimalToBinary{3A10} 7>31 2|47b13 61l8 61t23
-7i31 Decimal{natural} 2|47b30 51r15
-8V14*octalToDecimal{natural} 8>30 2|3b13 15l8 15t22
-8a30 Octal{4A10} 2|3b29 7r24 8r13 11r29
-9V14*decimalToOctal{4A10} 9>30 2|17b13 27l8 27t22
-9i30 Decimal{natural} 2|17b29 21r15
-X 2 calculator.adb
-4i7 result{natural} 11m10 11r20 14r14
-5i7 n{natural} 11r46 12m10 12r15
-7i11 i{integer} 8r19 11r35
-18a7 resultArray{1|4A10} 22r30 23m10 26r14
-19i7 rest{integer} 21m7 23r35 24m10 24r18
-22i11 counter{integer} 23r22
-30i7 result{integer} 35m10 40m13 40r23 44r15
-31i7 index{natural} 33m7 40r37 42m10 42r19
-38i12 counter{integer} 39r21
-48a7 resultArray{1|3A10} 54m13 56m13 60r14
-49i7 rest{natural} 51m7 53r14 58m10 58r18
-52i11 counter{integer} 54r25 56r25
+X 3 calculator.ads
+1K9*Calculator 13l5 13e15 4|1b14 60l5 60t15
+3A9*booleanArray(boolean)<integer> 6r39 7r56 4|26r39 44r56 45r21
+4A9*octalArray(natural)<integer> 8r37 11r55 4|3r36 14r55 15r21
+6V13*binaryToDecimal{natural} 6>30 4|26b13 42l8 42t23
+6a30 Binary{3A9} 4|26b30 31r11 36r14
+7V13*decimalToBinary{3A9} 7>30 4|44b13 58l8 58t23
+7i30 Decimal{natural} 4|44b30 48r15
+8V13*octalToDecimal{natural} 8>29 10r15 4|3b13 12l8 12t22
+8a29 Octal{4A9} 4|3b29 7r24 8r29
+11V13*decimalToOctal{4A9} 11>29 4|14b13 24l8 24t22
+11i29 Decimal{natural} 4|14b29 18r15
+X 4 calculator.adb
+4i7 result{natural} 8m10 8r20 11r14
+5i7 n{natural} 8r46 9m10 9r15
+7i11 i{integer} 8r35
+15a7 resultArray{3|4A9} 19r30 20m10 23r14
+16i7 rest{integer} 18m7 20r35 21m10 21r18
+19i11 counter{integer} 20r22
+27i7 result{integer} 32m10 37m13 37r23 41r15
+28i7 index{natural} 30m7 37r37 39m10 39r19
+35i12 counter{integer} 36r21
+45a7 resultArray{3|3A9} 51m13 53m13 57r14
+46i7 rest{natural} 48m7 50r14 55m10 55r18
+49i11 counter{integer} 51r25 53r25
 

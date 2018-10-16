@@ -45,7 +45,7 @@
       "sloc": [
         {
           "file": "calculator.ads",
-          "line": 9
+          "line": 12
         }
       ],
       "spark": "all"
@@ -54,128 +54,7 @@
   "flow": [
     {
       "file": "calculator.adb",
-      "line": 6,
-      "col": 7,
-      "rule": "INEFFECTIVE",
-      "severity": "warning",
-      "entity": {
-        "name": "Calculator.octalToDecimal",
-        "sloc": [
-          {
-            "file": "calculator.ads",
-            "line": 8
-          }
-        ]
-      },
-      "check_tree": {
-      },
-      "tracefile": "calculator__flow__22.trace",
-      "msg_id": 0,
-      "how_proved": "flow"
-    },
-    {
-      "file": "calculator.adb",
-      "line": 12,
-      "col": 22,
-      "rule": "UNINITIALIZED",
-      "severity": "info",
-      "entity": {
-        "name": "Calculator.octalToDecimal",
-        "sloc": [
-          {
-            "file": "calculator.ads",
-            "line": 8
-          }
-        ]
-      },
-      "check_tree": {
-      },
-      "tracefile": "calculator__flow__33.trace",
-      "how_proved": "flow"
-    },
-    {
-      "file": "calculator.adb",
-      "line": 13,
-      "col": 17,
-      "rule": "UNINITIALIZED",
-      "severity": "info",
-      "entity": {
-        "name": "Calculator.octalToDecimal",
-        "sloc": [
-          {
-            "file": "calculator.ads",
-            "line": 8
-          }
-        ]
-      },
-      "check_tree": {
-      },
-      "tracefile": "calculator__flow__34.trace",
-      "how_proved": "flow"
-    },
-    {
-      "file": "calculator.adb",
-      "line": 13,
-      "col": 17,
-      "rule": "UNINITIALIZED",
-      "severity": "info",
-      "entity": {
-        "name": "Calculator.octalToDecimal",
-        "sloc": [
-          {
-            "file": "calculator.ads",
-            "line": 8
-          }
-        ]
-      },
-      "check_tree": {
-      },
-      "tracefile": "calculator__flow__35.trace",
-      "how_proved": "flow"
-    },
-    {
-      "file": "calculator.adb",
-      "line": 14,
-      "col": 12,
-      "rule": "UNINITIALIZED",
-      "severity": "info",
-      "entity": {
-        "name": "Calculator.octalToDecimal",
-        "sloc": [
-          {
-            "file": "calculator.ads",
-            "line": 8
-          }
-        ]
-      },
-      "check_tree": {
-      },
-      "tracefile": "calculator__flow__36.trace",
-      "how_proved": "flow"
-    },
-    {
-      "file": "calculator.adb",
-      "line": 16,
-      "col": 7,
-      "rule": "UNINITIALIZED",
-      "severity": "info",
-      "entity": {
-        "name": "Calculator.octalToDecimal",
-        "sloc": [
-          {
-            "file": "calculator.ads",
-            "line": 8
-          }
-        ]
-      },
-      "check_tree": {
-      },
-      "tracefile": "calculator__flow__37.trace",
-      "how_proved": "flow"
-    },
-    {
-      "file": "calculator.adb",
-      "line": 42,
+      "line": 37,
       "col": 20,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -190,12 +69,12 @@
       },
       "check_tree": {
       },
-      "tracefile": "calculator__flow__80.trace",
+      "tracefile": "calculator__flow__31.trace",
       "how_proved": "flow"
     },
     {
       "file": "calculator.adb",
-      "line": 42,
+      "line": 37,
       "col": 20,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -210,12 +89,12 @@
       },
       "check_tree": {
       },
-      "tracefile": "calculator__flow__81.trace",
+      "tracefile": "calculator__flow__32.trace",
       "how_proved": "flow"
     },
     {
       "file": "calculator.adb",
-      "line": 44,
+      "line": 39,
       "col": 16,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -230,12 +109,12 @@
       },
       "check_tree": {
       },
-      "tracefile": "calculator__flow__82.trace",
+      "tracefile": "calculator__flow__33.trace",
       "how_proved": "flow"
     },
     {
       "file": "calculator.adb",
-      "line": 46,
+      "line": 41,
       "col": 8,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -250,92 +129,12 @@
       },
       "check_tree": {
       },
-      "tracefile": "calculator__flow__83.trace",
+      "tracefile": "calculator__flow__34.trace",
       "how_proved": "flow"
     },
     {
       "file": "calculator.adb",
-      "line": 25,
-      "col": 31,
-      "rule": "UNINITIALIZED",
-      "severity": "info",
-      "entity": {
-        "name": "Calculator.decimalToOctal",
-        "sloc": [
-          {
-            "file": "calculator.ads",
-            "line": 9
-          }
-        ]
-      },
-      "check_tree": {
-      },
-      "tracefile": "calculator__flow__113.trace",
-      "how_proved": "flow"
-    },
-    {
-      "file": "calculator.adb",
-      "line": 25,
-      "col": 31,
-      "rule": "UNINITIALIZED",
-      "severity": "info",
-      "entity": {
-        "name": "Calculator.decimalToOctal",
-        "sloc": [
-          {
-            "file": "calculator.ads",
-            "line": 9
-          }
-        ]
-      },
-      "check_tree": {
-      },
-      "tracefile": "calculator__flow__114.trace",
-      "how_proved": "flow"
-    },
-    {
-      "file": "calculator.adb",
-      "line": 26,
-      "col": 15,
-      "rule": "UNINITIALIZED",
-      "severity": "info",
-      "entity": {
-        "name": "Calculator.decimalToOctal",
-        "sloc": [
-          {
-            "file": "calculator.ads",
-            "line": 9
-          }
-        ]
-      },
-      "check_tree": {
-      },
-      "tracefile": "calculator__flow__115.trace",
-      "how_proved": "flow"
-    },
-    {
-      "file": "calculator.adb",
-      "line": 28,
-      "col": 7,
-      "rule": "UNINITIALIZED",
-      "severity": "info",
-      "entity": {
-        "name": "Calculator.decimalToOctal",
-        "sloc": [
-          {
-            "file": "calculator.ads",
-            "line": 9
-          }
-        ]
-      },
-      "check_tree": {
-      },
-      "tracefile": "calculator__flow__116.trace",
-      "how_proved": "flow"
-    },
-    {
-      "file": "calculator.adb",
-      "line": 55,
+      "line": 50,
       "col": 10,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -350,12 +149,12 @@
       },
       "check_tree": {
       },
-      "tracefile": "calculator__flow__148.trace",
+      "tracefile": "calculator__flow__79.trace",
       "how_proved": "flow"
     },
     {
       "file": "calculator.adb",
-      "line": 56,
+      "line": 51,
       "col": 34,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -370,12 +169,12 @@
       },
       "check_tree": {
       },
-      "tracefile": "calculator__flow__149.trace",
+      "tracefile": "calculator__flow__80.trace",
       "how_proved": "flow"
     },
     {
       "file": "calculator.adb",
-      "line": 58,
+      "line": 53,
       "col": 34,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -390,12 +189,12 @@
       },
       "check_tree": {
       },
-      "tracefile": "calculator__flow__150.trace",
+      "tracefile": "calculator__flow__81.trace",
       "how_proved": "flow"
     },
     {
       "file": "calculator.adb",
-      "line": 60,
+      "line": 55,
       "col": 15,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -410,12 +209,12 @@
       },
       "check_tree": {
       },
-      "tracefile": "calculator__flow__151.trace",
+      "tracefile": "calculator__flow__82.trace",
       "how_proved": "flow"
     },
     {
       "file": "calculator.adb",
-      "line": 62,
+      "line": 57,
       "col": 7,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -430,15 +229,175 @@
       },
       "check_tree": {
       },
-      "tracefile": "calculator__flow__152.trace",
+      "tracefile": "calculator__flow__83.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "calculator.adb",
+      "line": 8,
+      "col": 17,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Calculator.octalToDecimal",
+        "sloc": [
+          {
+            "file": "calculator.ads",
+            "line": 8
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "calculator__flow__111.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "calculator.adb",
+      "line": 8,
+      "col": 17,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Calculator.octalToDecimal",
+        "sloc": [
+          {
+            "file": "calculator.ads",
+            "line": 8
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "calculator__flow__112.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "calculator.adb",
+      "line": 9,
+      "col": 12,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Calculator.octalToDecimal",
+        "sloc": [
+          {
+            "file": "calculator.ads",
+            "line": 8
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "calculator__flow__113.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "calculator.adb",
+      "line": 11,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Calculator.octalToDecimal",
+        "sloc": [
+          {
+            "file": "calculator.ads",
+            "line": 8
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "calculator__flow__114.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "calculator.adb",
+      "line": 20,
+      "col": 31,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Calculator.decimalToOctal",
+        "sloc": [
+          {
+            "file": "calculator.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "calculator__flow__144.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "calculator.adb",
+      "line": 20,
+      "col": 31,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Calculator.decimalToOctal",
+        "sloc": [
+          {
+            "file": "calculator.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "calculator__flow__145.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "calculator.adb",
+      "line": 21,
+      "col": 15,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Calculator.decimalToOctal",
+        "sloc": [
+          {
+            "file": "calculator.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "calculator__flow__146.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "calculator.adb",
+      "line": 23,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Calculator.decimalToOctal",
+        "sloc": [
+          {
+            "file": "calculator.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "calculator__flow__147.trace",
       "how_proved": "flow"
     }
   ],
   "proof": [
     {
       "file": "calculator.adb",
-      "line": 12,
-      "col": 27,
+      "line": 8,
+      "col": 43,
       "rule": "VC_OVERFLOW_CHECK",
       "severity": "medium",
       "entity": {
@@ -455,13 +414,13 @@
           "proof_attempts": {
             "CVC4": {
               "result": "Timeout",
-              "steps": 2125,
+              "steps": 2101,
               "time": 9.90000000000000E-01
             },
             "CVC4_CE": {
               "result": "Unknown (other)",
-              "steps": 2141,
-              "time": 1.20000000000000E+00
+              "steps": 2117,
+              "time": 1.18000000000000E+00
             }
           },
           "transformations": {
@@ -469,9 +428,9 @@
         }
       ],
       "check_file": "calculator.adb",
-      "check_line": 12,
-      "check_col": 27,
-      "tracefile": "calculator.adb_12_27_overflow_check.trace",
+      "check_line": 8,
+      "check_col": 43,
+      "tracefile": "calculator.adb_8_43_overflow_check.trace",
       "cntexmp": {
         "calculator.adb": {
           "4": [
@@ -481,12 +440,7 @@
               "kind": "variable"
             }
           ],
-          "8": [
-            {
-              "name": "exponential",
-              "value": "0",
-              "kind": "variable"
-            },
+          "7": [
             {
               "name": "i",
               "value": "0",
@@ -498,7 +452,181 @@
               "kind": "variable"
             },
             {
-              "name": "octalToDecimal'Result",
+              "name": "result",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "8": [
+            {
+              "name": "n",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "result",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        },
+        "calculator.ads": {
+          "8": [
+            {
+              "name": "Octal",
+              "value": "(others => 0)",
+              "kind": "variable"
+            },
+            {
+              "name": "Octal'First",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "Octal'Last",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 0,
+      "how_proved": "prover"
+    },
+    {
+      "file": "calculator.adb",
+      "line": 20,
+      "col": 40,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Calculator.decimalToOctal",
+        "sloc": [
+          {
+            "file": "calculator.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "calculator.adb",
+      "check_line": 20,
+      "check_col": 40,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "calculator.adb",
+      "line": 50,
+      "col": 19,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Calculator.decimalToBinary",
+        "sloc": [
+          {
+            "file": "calculator.ads",
+            "line": 7
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "calculator.adb",
+      "check_line": 50,
+      "check_col": 19,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "calculator.adb",
+      "line": 9,
+      "col": 17,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Calculator.octalToDecimal",
+        "sloc": [
+          {
+            "file": "calculator.ads",
+            "line": 8
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Timeout",
+              "steps": 4415,
+              "time": 9.80000000000000E-01
+            },
+            "CVC4_CE": {
+              "result": "Unknown (other)",
+              "steps": 3065,
+              "time": 8.50000000000000E-01
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "calculator.adb",
+      "check_line": 9,
+      "check_col": 17,
+      "tracefile": "calculator.adb_9_17_overflow_check.trace",
+      "cntexmp": {
+        "calculator.adb": {
+          "4": [
+            {
+              "name": "result",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "7": [
+            {
+              "name": "i",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "n",
               "value": "0",
               "kind": "variable"
             },
@@ -508,15 +636,17 @@
               "kind": "variable"
             }
           ],
-          "12": [
+          "8": [
             {
-              "name": "exponential",
+              "name": "result",
               "value": "0",
               "kind": "variable"
-            },
+            }
+          ],
+          "9": [
             {
               "name": "n",
-              "value": "0",
+              "value": "2147483647",
               "kind": "variable"
             }
           ]
@@ -546,88 +676,8 @@
     },
     {
       "file": "calculator.adb",
-      "line": 26,
-      "col": 23,
-      "rule": "VC_DIVISION_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "Calculator.decimalToOctal",
-        "sloc": [
-          {
-            "file": "calculator.ads",
-            "line": 9
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "calculator.adb",
-      "check_line": 26,
-      "check_col": 23,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "calculator.adb",
-      "line": 55,
-      "col": 19,
-      "rule": "VC_DIVISION_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "Calculator.decimalToBinary",
-        "sloc": [
-          {
-            "file": "calculator.ads",
-            "line": 7
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "calculator.adb",
-      "check_line": 55,
-      "check_col": 19,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "calculator.adb",
-      "line": 14,
-      "col": 17,
+      "line": 8,
+      "col": 38,
       "rule": "VC_OVERFLOW_CHECK",
       "severity": "medium",
       "entity": {
@@ -644,13 +694,13 @@
           "proof_attempts": {
             "CVC4": {
               "result": "Timeout",
-              "steps": 4141,
-              "time": 9.80000000000000E-01
+              "steps": 4564,
+              "time": 9.90000000000000E-01
             },
             "CVC4_CE": {
               "result": "Unknown (other)",
-              "steps": 3065,
-              "time": 8.50000000000000E-01
+              "steps": 3881,
+              "time": 9.10000000000000E-01
             }
           },
           "transformations": {
@@ -658,9 +708,9 @@
         }
       ],
       "check_file": "calculator.adb",
-      "check_line": 14,
-      "check_col": 17,
-      "tracefile": "calculator.adb_14_17_overflow_check.trace",
+      "check_line": 8,
+      "check_col": 38,
+      "tracefile": "calculator.adb_8_38_overflow_check.trace",
       "cntexmp": {
         "calculator.adb": {
           "4": [
@@ -670,12 +720,7 @@
               "kind": "variable"
             }
           ],
-          "8": [
-            {
-              "name": "exponential",
-              "value": "0",
-              "kind": "variable"
-            },
+          "7": [
             {
               "name": "i",
               "value": "0",
@@ -683,11 +728,6 @@
             },
             {
               "name": "n",
-              "value": "2147483647",
-              "kind": "variable"
-            },
-            {
-              "name": "octalToDecimal'Result",
               "value": "0",
               "kind": "variable"
             },
@@ -697,24 +737,10 @@
               "kind": "variable"
             }
           ],
-          "12": [
-            {
-              "name": "exponential",
-              "value": "0",
-              "kind": "variable"
-            }
-          ],
-          "13": [
+          "8": [
             {
               "name": "result",
               "value": "0",
-              "kind": "variable"
-            }
-          ],
-          "14": [
-            {
-              "name": "n",
-              "value": "2147483647",
               "kind": "variable"
             }
           ]
@@ -744,8 +770,8 @@
     },
     {
       "file": "calculator.adb",
-      "line": 13,
-      "col": 38,
+      "line": 8,
+      "col": 27,
       "rule": "VC_OVERFLOW_CHECK",
       "severity": "medium",
       "entity": {
@@ -762,13 +788,13 @@
           "proof_attempts": {
             "CVC4": {
               "result": "Timeout",
-              "steps": 4453,
+              "steps": 4495,
               "time": 9.90000000000000E-01
             },
             "CVC4_CE": {
               "result": "Unknown (other)",
-              "steps": 3342,
-              "time": 8.60000000000000E-01
+              "steps": 2741,
+              "time": 8.10000000000000E-01
             }
           },
           "transformations": {
@@ -776,9 +802,9 @@
         }
       ],
       "check_file": "calculator.adb",
-      "check_line": 13,
-      "check_col": 38,
-      "tracefile": "calculator.adb_13_38_overflow_check.trace",
+      "check_line": 8,
+      "check_col": 27,
+      "tracefile": "calculator.adb_8_27_overflow_check.trace",
       "cntexmp": {
         "calculator.adb": {
           "4": [
@@ -788,12 +814,7 @@
               "kind": "variable"
             }
           ],
-          "8": [
-            {
-              "name": "exponential",
-              "value": "0",
-              "kind": "variable"
-            },
+          "7": [
             {
               "name": "i",
               "value": "0",
@@ -805,49 +826,12 @@
               "kind": "variable"
             },
             {
-              "name": "octalToDecimal'Result",
-              "value": "0",
-              "kind": "variable"
-            },
-            {
               "name": "result",
               "value": "0",
               "kind": "variable"
             }
           ],
-          "12": [
-            {
-              "name": "exponential",
-              "value": "0",
-              "kind": "variable"
-            }
-          ],
-          "13": [
-            {
-              "name": "Octal",
-              "value": "(others => 0)",
-              "kind": "variable"
-            },
-            {
-              "name": "Octal'First",
-              "value": "0",
-              "kind": "variable"
-            },
-            {
-              "name": "Octal'Last",
-              "value": "0",
-              "kind": "variable"
-            },
-            {
-              "name": "exponential",
-              "value": "0",
-              "kind": "variable"
-            },
-            {
-              "name": "i",
-              "value": "0",
-              "kind": "variable"
-            },
+          "8": [
             {
               "name": "result",
               "value": "0",
@@ -879,11 +863,11 @@
       "how_proved": "prover"
     },
     {
-      "file": "calculator.adb",
-      "line": 13,
-      "col": 27,
-      "rule": "VC_OVERFLOW_CHECK",
-      "severity": "medium",
+      "file": "calculator.ads",
+      "line": 10,
+      "col": 49,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
       "entity": {
         "name": "Calculator.octalToDecimal",
         "sloc": [
@@ -897,101 +881,41 @@
         {
           "proof_attempts": {
             "CVC4": {
-              "result": "Timeout",
-              "steps": 4417,
-              "time": 9.80000000000000E-01
-            },
-            "CVC4_CE": {
-              "result": "Unknown (other)",
-              "steps": 3188,
-              "time": 8.40000000000000E-01
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
             }
           },
           "transformations": {
           }
         }
       ],
-      "check_file": "calculator.adb",
-      "check_line": 13,
-      "check_col": 27,
-      "tracefile": "calculator.adb_13_27_overflow_check.trace",
-      "cntexmp": {
-        "calculator.adb": {
-          "4": [
-            {
-              "name": "result",
-              "value": "0",
-              "kind": "variable"
-            }
-          ],
-          "8": [
-            {
-              "name": "exponential",
-              "value": "0",
-              "kind": "variable"
-            },
-            {
-              "name": "i",
-              "value": "0",
-              "kind": "variable"
-            },
-            {
-              "name": "n",
-              "value": "0",
-              "kind": "variable"
-            },
-            {
-              "name": "octalToDecimal'Result",
-              "value": "0",
-              "kind": "variable"
-            },
-            {
-              "name": "result",
-              "value": "0",
-              "kind": "variable"
-            }
-          ],
-          "12": [
-            {
-              "name": "exponential",
-              "value": "0",
-              "kind": "variable"
-            }
-          ],
-          "13": [
-            {
-              "name": "result",
-              "value": "0",
-              "kind": "variable"
-            }
-          ]
-        },
-        "calculator.ads": {
-          "8": [
-            {
-              "name": "Octal",
-              "value": "(others => 0)",
-              "kind": "variable"
-            },
-            {
-              "name": "Octal'First",
-              "value": "0",
-              "kind": "variable"
-            },
-            {
-              "name": "Octal'Last",
-              "value": "0",
-              "kind": "variable"
-            }
-          ]
+      "check_file": "calculator.ads",
+      "check_line": 10,
+      "check_col": 49,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
         }
-      },
-      "msg_id": 4,
-      "how_proved": "prover"
+      }
     },
     {
       "file": "calculator.adb",
-      "line": 36,
+      "line": 31,
       "col": 18,
       "rule": "VC_INDEX_CHECK",
       "severity": "medium",
@@ -1016,16 +940,6 @@
               "result": "Unknown (other)",
               "steps": 96,
               "time": 0
-            },
-            "Z3": {
-              "result": "Timeout",
-              "steps": -1,
-              "time": 0
-            },
-            "altergo": {
-              "result": "Unknown (none)",
-              "steps": -1,
-              "time": 0
             }
           },
           "transformations": {
@@ -1037,21 +951,6 @@
               "result": "Unknown (none)",
               "steps": 105,
               "time": 0
-            },
-            "CVC4_CE": {
-              "result": "Unknown (none)",
-              "steps": 96,
-              "time": 0
-            },
-            "Z3": {
-              "result": "Timeout",
-              "steps": -1,
-              "time": 0
-            },
-            "altergo": {
-              "result": "Unknown (none)",
-              "steps": -1,
-              "time": 0
             }
           },
           "transformations": {
@@ -1059,26 +958,26 @@
         }
       ],
       "check_file": "calculator.adb",
-      "check_line": 36,
+      "check_line": 31,
       "check_col": 18,
-      "tracefile": "calculator.adb_36_18_index_check.trace",
+      "tracefile": "calculator.adb_31_18_index_check.trace",
       "cntexmp": {
         "calculator.adb": {
-          "32": [
+          "27": [
             {
               "name": "result",
               "value": "0",
               "kind": "variable"
             }
           ],
-          "35": [
+          "30": [
             {
               "name": "index",
               "value": "1",
               "kind": "variable"
             }
           ],
-          "36": [
+          "31": [
             {
               "name": "Binary",
               "value": "(others => False)",
@@ -1116,12 +1015,52 @@
           ]
         }
       },
-      "msg_id": 5,
+      "msg_id": 4,
       "how_proved": "prover"
     },
     {
       "file": "calculator.adb",
-      "line": 13,
+      "line": 21,
+      "col": 23,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Calculator.decimalToOctal",
+        "sloc": [
+          {
+            "file": "calculator.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "calculator.adb",
+      "check_line": 21,
+      "check_col": 23,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "calculator.adb",
+      "line": 8,
       "col": 27,
       "rule": "VC_RANGE_CHECK",
       "severity": "medium",
@@ -1139,13 +1078,13 @@
           "proof_attempts": {
             "CVC4": {
               "result": "Timeout",
-              "steps": 4465,
+              "steps": 4490,
               "time": 9.90000000000000E-01
             },
             "CVC4_CE": {
               "result": "Unknown (other)",
-              "steps": 3321,
-              "time": 8.60000000000000E-01
+              "steps": 3673,
+              "time": 8.80000000000000E-01
             }
           },
           "transformations": {
@@ -1153,9 +1092,9 @@
         }
       ],
       "check_file": "calculator.adb",
-      "check_line": 13,
+      "check_line": 8,
       "check_col": 27,
-      "tracefile": "calculator.adb_13_27_range_check.trace",
+      "tracefile": "calculator.adb_8_27_range_check.trace",
       "cntexmp": {
         "calculator.adb": {
           "4": [
@@ -1165,12 +1104,7 @@
               "kind": "variable"
             }
           ],
-          "8": [
-            {
-              "name": "exponential",
-              "value": "0",
-              "kind": "variable"
-            },
+          "7": [
             {
               "name": "i",
               "value": "0",
@@ -1182,24 +1116,12 @@
               "kind": "variable"
             },
             {
-              "name": "octalToDecimal'Result",
-              "value": "0",
-              "kind": "variable"
-            },
-            {
               "name": "result",
               "value": "0",
               "kind": "variable"
             }
           ],
-          "12": [
-            {
-              "name": "exponential",
-              "value": "0",
-              "kind": "variable"
-            }
-          ],
-          "13": [
+          "8": [
             {
               "name": "result",
               "value": "0",
@@ -1227,12 +1149,186 @@
           ]
         }
       },
+      "msg_id": 5,
+      "how_proved": "prover"
+    },
+    {
+      "file": "calculator.ads",
+      "line": 10,
+      "col": 43,
+      "rule": "VC_POSTCONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "Calculator.octalToDecimal",
+        "sloc": [
+          {
+            "file": "calculator.ads",
+            "line": 8
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 13,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              }
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Timeout",
+              "steps": 4472,
+              "time": 9.90000000000000E-01
+            },
+            "CVC4_CE": {
+              "result": "Unknown (other)",
+              "steps": 3505,
+              "time": 9.10000000000000E-01
+            }
+          },
+          "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                  "CVC4_CE": {
+                    "result": "Unknown (other)",
+                    "steps": 5216,
+                    "time": 1
+                  }
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "check_file": "calculator.ads",
+      "check_line": 10,
+      "check_col": 14,
+      "tracefile": "calculator.ads_10_14_postcondition.trace",
+      "cntexmp": {
+        "calculator.adb": {
+          "4": [
+            {
+              "name": "result",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "7": [
+            {
+              "name": "i",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "n",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "result",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "8": [
+            {
+              "name": "result",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "9": [
+            {
+              "name": "n",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "11": [
+            {
+              "name": "octalToDecimal'Result",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        },
+        "calculator.ads": {
+          "8": [
+            {
+              "name": "Octal",
+              "value": "(others => 0)",
+              "kind": "variable"
+            },
+            {
+              "name": "Octal'First",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "Octal'Last",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "10": [
+            {
+              "name": "Octal",
+              "value": "(others => 0)",
+              "kind": "variable"
+            },
+            {
+              "name": "Octal'First",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "Octal'Last",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "x",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
       "msg_id": 6,
       "how_proved": "prover"
     },
     {
       "file": "calculator.adb",
-      "line": 44,
+      "line": 39,
       "col": 25,
       "rule": "VC_OVERFLOW_CHECK",
       "severity": "medium",
@@ -1250,23 +1346,13 @@
           "proof_attempts": {
             "CVC4": {
               "result": "Timeout",
-              "steps": 3188,
+              "steps": 3193,
               "time": 0
             },
             "CVC4_CE": {
               "result": "Unknown (other)",
-              "steps": 2493,
-              "time": 8.30000000000000E-01
-            },
-            "Z3": {
-              "result": "Timeout",
-              "steps": -1,
-              "time": 0
-            },
-            "altergo": {
-              "result": "Timeout",
-              "steps": -1,
-              "time": 0
+              "steps": 2719,
+              "time": 8.20000000000000E-01
             }
           },
           "transformations": {
@@ -1275,8 +1361,8 @@
                 "proof_attempts": {
                   "CVC4_CE": {
                     "result": "Unknown (other)",
-                    "steps": 2902,
-                    "time": 8.60000000000000E-01
+                    "steps": 3013,
+                    "time": 1.12000000000000E+00
                   }
                 },
                 "transformations": {
@@ -1297,8 +1383,8 @@
                 "proof_attempts": {
                   "CVC4_CE": {
                     "result": "Unknown (other)",
-                    "steps": 2754,
-                    "time": 8.30000000000000E-01
+                    "steps": 3013,
+                    "time": 1.12000000000000E+00
                   }
                 },
                 "transformations": {
@@ -1320,26 +1406,26 @@
         }
       ],
       "check_file": "calculator.adb",
-      "check_line": 44,
+      "check_line": 39,
       "check_col": 25,
-      "tracefile": "calculator.adb_44_25_overflow_check.trace",
+      "tracefile": "calculator.adb_39_25_overflow_check.trace",
       "cntexmp": {
         "calculator.adb": {
-          "32": [
+          "27": [
             {
               "name": "result",
               "value": "0",
               "kind": "variable"
             }
           ],
-          "35": [
+          "30": [
             {
               "name": "index",
               "value": "1",
               "kind": "variable"
             }
           ],
-          "40": [
+          "35": [
             {
               "name": "counter",
               "value": "0",
@@ -1356,7 +1442,7 @@
               "kind": "variable"
             }
           ],
-          "44": [
+          "39": [
             {
               "name": "index",
               "value": "2147483647",
@@ -1389,7 +1475,7 @@
     },
     {
       "file": "calculator.adb",
-      "line": 41,
+      "line": 36,
       "col": 21,
       "rule": "VC_INDEX_CHECK",
       "severity": "medium",
@@ -1425,16 +1511,6 @@
               "result": "Unknown (other)",
               "steps": 108,
               "time": 0
-            },
-            "Z3": {
-              "result": "Timeout",
-              "steps": -1,
-              "time": 0
-            },
-            "altergo": {
-              "result": "Unknown (none)",
-              "steps": -1,
-              "time": 0
             }
           },
           "transformations": {
@@ -1466,26 +1542,33 @@
         }
       ],
       "check_file": "calculator.adb",
-      "check_line": 41,
+      "check_line": 36,
       "check_col": 21,
-      "tracefile": "calculator.adb_41_21_index_check.trace",
+      "tracefile": "calculator.adb_36_21_index_check.trace",
       "cntexmp": {
         "calculator.adb": {
-          "32": [
+          "27": [
             {
               "name": "result",
               "value": "0",
               "kind": "variable"
             }
           ],
-          "35": [
+          "30": [
             {
               "name": "index",
               "value": "1",
               "kind": "variable"
             }
           ],
-          "40": [
+          "32": [
+            {
+              "name": "result",
+              "value": "1",
+              "kind": "variable"
+            }
+          ],
+          "35": [
             {
               "name": "counter",
               "value": "0",
@@ -1502,10 +1585,10 @@
               "kind": "variable"
             }
           ],
-          "41": [
+          "36": [
             {
               "name": "Binary",
-              "value": "(others => False)",
+              "value": "(32 => True, others => False)",
               "kind": "variable"
             },
             {
@@ -1529,7 +1612,7 @@
           "6": [
             {
               "name": "Binary",
-              "value": "(others => False)",
+              "value": "(32 => True, others => False)",
               "kind": "variable"
             },
             {
@@ -1550,7 +1633,7 @@
     },
     {
       "file": "calculator.adb",
-      "line": 42,
+      "line": 37,
       "col": 34,
       "rule": "VC_OVERFLOW_CHECK",
       "severity": "medium",
@@ -1574,17 +1657,7 @@
             "CVC4_CE": {
               "result": "Unknown (other)",
               "steps": 2170,
-              "time": 1.21000000000000E+00
-            },
-            "Z3": {
-              "result": "Timeout",
-              "steps": -1,
-              "time": 0
-            },
-            "altergo": {
-              "result": "Timeout",
-              "steps": -1,
-              "time": 0
+              "time": 1.17000000000000E+00
             }
           },
           "transformations": {
@@ -1594,7 +1667,7 @@
                   "CVC4_CE": {
                     "result": "Unknown (other)",
                     "steps": 2090,
-                    "time": 1.12000000000000E+00
+                    "time": 1.11000000000000E+00
                   }
                 },
                 "transformations": {
@@ -1616,26 +1689,33 @@
         }
       ],
       "check_file": "calculator.adb",
-      "check_line": 42,
+      "check_line": 37,
       "check_col": 34,
-      "tracefile": "calculator.adb_42_34_overflow_check.trace",
+      "tracefile": "calculator.adb_37_34_overflow_check.trace",
       "cntexmp": {
         "calculator.adb": {
-          "32": [
+          "27": [
             {
               "name": "result",
               "value": "0",
               "kind": "variable"
             }
           ],
-          "35": [
+          "30": [
             {
               "name": "index",
               "value": "1",
               "kind": "variable"
             }
           ],
-          "40": [
+          "32": [
+            {
+              "name": "result",
+              "value": "1",
+              "kind": "variable"
+            }
+          ],
+          "35": [
             {
               "name": "counter",
               "value": "0",
@@ -1652,7 +1732,7 @@
               "kind": "variable"
             }
           ],
-          "42": [
+          "37": [
             {
               "name": "index",
               "value": "0",
@@ -1690,7 +1770,7 @@
     },
     {
       "file": "calculator.adb",
-      "line": 60,
+      "line": 55,
       "col": 23,
       "rule": "VC_DIVISION_CHECK",
       "severity": "info",
@@ -1717,7 +1797,7 @@
         }
       ],
       "check_file": "calculator.adb",
-      "check_line": 60,
+      "check_line": 55,
       "check_col": 23,
       "how_proved": "prover",
       "stats": {
@@ -1730,47 +1810,7 @@
     },
     {
       "file": "calculator.adb",
-      "line": 25,
-      "col": 40,
-      "rule": "VC_DIVISION_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "Calculator.decimalToOctal",
-        "sloc": [
-          {
-            "file": "calculator.ads",
-            "line": 9
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "calculator.adb",
-      "check_line": 25,
-      "check_col": 40,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "calculator.adb",
-      "line": 25,
+      "line": 20,
       "col": 40,
       "rule": "VC_RANGE_CHECK",
       "severity": "medium",
@@ -1779,7 +1819,7 @@
         "sloc": [
           {
             "file": "calculator.ads",
-            "line": 9
+            "line": 12
           }
         ]
       },
@@ -1795,16 +1835,6 @@
               "result": "Unknown (other)",
               "steps": 87,
               "time": 0
-            },
-            "Z3": {
-              "result": "Timeout",
-              "steps": -1,
-              "time": 0
-            },
-            "altergo": {
-              "result": "Unknown (none)",
-              "steps": -1,
-              "time": 0
             }
           },
           "transformations": {
@@ -1812,19 +1842,19 @@
         }
       ],
       "check_file": "calculator.adb",
-      "check_line": 25,
+      "check_line": 20,
       "check_col": 40,
-      "tracefile": "calculator.adb_25_40_range_check.trace",
+      "tracefile": "calculator.adb_20_40_range_check.trace",
       "cntexmp": {
         "calculator.adb": {
-          "23": [
+          "18": [
             {
               "name": "rest",
               "value": "0",
               "kind": "variable"
             }
           ],
-          "24": [
+          "19": [
             {
               "name": "counter",
               "value": "1",
@@ -1841,7 +1871,7 @@
               "kind": "variable"
             }
           ],
-          "25": [
+          "20": [
             {
               "name": "rest",
               "value": "-9",
@@ -1855,7 +1885,7 @@
           ]
         },
         "calculator.ads": {
-          "9": [
+          "12": [
             {
               "name": "Decimal",
               "value": "0",
@@ -1869,7 +1899,7 @@
     },
     {
       "file": "calculator.adb",
-      "line": 42,
+      "line": 37,
       "col": 30,
       "rule": "VC_OVERFLOW_CHECK",
       "severity": "medium",
@@ -1887,23 +1917,13 @@
           "proof_attempts": {
             "CVC4": {
               "result": "Timeout",
-              "steps": 4299,
+              "steps": 4376,
               "time": 0
             },
             "CVC4_CE": {
               "result": "Unknown (other)",
-              "steps": 3604,
-              "time": 8.80000000000000E-01
-            },
-            "Z3": {
-              "result": "Timeout",
-              "steps": -1,
-              "time": 0
-            },
-            "altergo": {
-              "result": "Timeout",
-              "steps": -1,
-              "time": 0
+              "steps": 3378,
+              "time": 8.60000000000000E-01
             }
           },
           "transformations": {
@@ -1912,8 +1932,8 @@
                 "proof_attempts": {
                   "CVC4_CE": {
                     "result": "Unknown (other)",
-                    "steps": 3310,
-                    "time": 8.60000000000000E-01
+                    "steps": 3925,
+                    "time": 9.70000000000000E-01
                   }
                 },
                 "transformations": {
@@ -1923,8 +1943,8 @@
                 "proof_attempts": {
                   "CVC4_CE": {
                     "result": "Unknown (other)",
-                    "steps": 2640,
-                    "time": 8.00000000000000E-01
+                    "steps": 4332,
+                    "time": 9.80000000000000E-01
                   }
                 },
                 "transformations": {
@@ -1935,26 +1955,26 @@
         }
       ],
       "check_file": "calculator.adb",
-      "check_line": 42,
+      "check_line": 37,
       "check_col": 30,
-      "tracefile": "calculator.adb_42_30_overflow_check.trace",
+      "tracefile": "calculator.adb_37_30_overflow_check.trace",
       "cntexmp": {
         "calculator.adb": {
-          "32": [
+          "27": [
             {
               "name": "result",
               "value": "0",
               "kind": "variable"
             }
           ],
-          "35": [
+          "30": [
             {
               "name": "index",
               "value": "1",
               "kind": "variable"
             }
           ],
-          "40": [
+          "35": [
             {
               "name": "counter",
               "value": "0",
@@ -1971,7 +1991,7 @@
               "kind": "variable"
             }
           ],
-          "42": [
+          "37": [
             {
               "name": "result",
               "value": "0",
@@ -2004,7 +2024,7 @@
     },
     {
       "file": "calculator.adb",
-      "line": 46,
+      "line": 41,
       "col": 15,
       "rule": "VC_RANGE_CHECK",
       "severity": "medium",
@@ -2022,23 +2042,13 @@
           "proof_attempts": {
             "CVC4": {
               "result": "Timeout",
-              "steps": 4289,
+              "steps": 4389,
               "time": 0
             },
             "CVC4_CE": {
               "result": "Unknown (other)",
-              "steps": 2759,
-              "time": 8.40000000000000E-01
-            },
-            "Z3": {
-              "result": "Timeout",
-              "steps": -1,
-              "time": 0
-            },
-            "altergo": {
-              "result": "Timeout",
-              "steps": -1,
-              "time": 0
+              "steps": 3249,
+              "time": 8.70000000000000E-01
             }
           },
           "transformations": {
@@ -2047,7 +2057,7 @@
                 "proof_attempts": {
                   "CVC4_CE": {
                     "result": "Unknown (other)",
-                    "steps": 5214,
+                    "steps": 4914,
                     "time": 9.90000000000000E-01
                   }
                 },
@@ -2075,8 +2085,8 @@
                 "proof_attempts": {
                   "CVC4_CE": {
                     "result": "Unknown (other)",
-                    "steps": 4097,
-                    "time": 9.10000000000000E-01
+                    "steps": 4591,
+                    "time": 9.60000000000000E-01
                   }
                 },
                 "transformations": {
@@ -2085,7 +2095,7 @@
               {
                 "proof_attempts": {
                   "CVC4_CE": {
-                    "result": "Unknown (none)",
+                    "result": "Unknown (other)",
                     "steps": 92,
                     "time": 0
                   }
@@ -2104,33 +2114,33 @@
         }
       ],
       "check_file": "calculator.adb",
-      "check_line": 46,
+      "check_line": 41,
       "check_col": 15,
-      "tracefile": "calculator.adb_46_15_range_check.trace",
+      "tracefile": "calculator.adb_41_15_range_check.trace",
       "cntexmp": {
         "calculator.adb": {
-          "32": [
+          "27": [
             {
               "name": "result",
               "value": "0",
               "kind": "variable"
             }
           ],
-          "35": [
+          "30": [
             {
               "name": "index",
               "value": "1",
               "kind": "variable"
             }
           ],
-          "37": [
+          "32": [
             {
               "name": "result",
               "value": "1",
               "kind": "variable"
             }
           ],
-          "40": [
+          "35": [
             {
               "name": "counter",
               "value": "1",
@@ -2147,14 +2157,14 @@
               "kind": "variable"
             }
           ],
-          "44": [
+          "39": [
             {
               "name": "index",
               "value": "1",
               "kind": "variable"
             }
           ],
-          "46": [
+          "41": [
             {
               "name": "result",
               "value": "-1",
@@ -2193,6 +2203,38 @@
       "claim": {
         "predicate": "CLAIM_EFFECTS",
         "arg": {
+          "name": "Calculator.octalToDecimal",
+          "sloc": [
+            {
+              "file": "calculator.ads",
+              "line": 8
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Calculator.decimalToOctal",
+          "sloc": [
+            {
+              "file": "calculator.ads",
+              "line": 12
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
           "name": "Calculator.binaryToDecimal",
           "sloc": [
             {
@@ -2214,22 +2256,6 @@
             {
               "file": "calculator.ads",
               "line": 1
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Calculator.decimalToOctal",
-          "sloc": [
-            {
-              "file": "calculator.ads",
-              "line": 9
             }
           ]
         }
@@ -2269,14 +2295,14 @@
     }
   ],
   "timings": {
-    "marking": 3.92999994801357E-04,
-    "globals (basic)": 1.32999994093552E-04,
-    "globals/properties (advanced)": 6.44000014290214E-04,
-    "flow analysis": 9.09100007265806E-03,
+    "marking": 2.66999995801598E-04,
+    "globals (basic)": 1.01999998150859E-04,
+    "globals/properties (advanced)": 4.38999995822087E-04,
+    "flow analysis": 6.56099990010262E-03,
     "codepeer results": 7.00000009601354E-06,
-    "init_why_sections": 1.99000001884997E-04,
-    "translation of standard": 3.07000009343028E-03,
-    "translation of compilation unit": 6.95300009101629E-03,
-    "proof": 7.47904491424561E+00
+    "init_why_sections": 2.07000004593283E-04,
+    "translation of standard": 3.28400009311736E-03,
+    "translation of compilation unit": 6.35799998417497E-03,
+    "proof": 8.65132904052734E+00
   }
 }

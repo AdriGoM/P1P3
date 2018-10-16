@@ -37,7 +37,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#fc1bc589#;
+   u00001 : constant Version_32 := 16#d81eadd0#;
    pragma Export (C, u00001, "test_calculatorB");
    u00002 : constant Version_32 := 16#050ff2f0#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -199,22 +199,26 @@ package ada_main is
    pragma Export (C, u00080, "system__stringsS");
    u00081 : constant Version_32 := 16#f5c4f553#;
    pragma Export (C, u00081, "system__file_control_blockS");
-   u00082 : constant Version_32 := 16#16b08e00#;
+   u00082 : constant Version_32 := 16#67929983#;
    pragma Export (C, u00082, "calculatorB");
-   u00083 : constant Version_32 := 16#eb5e8241#;
+   u00083 : constant Version_32 := 16#f5df6269#;
    pragma Export (C, u00083, "calculatorS");
-   u00084 : constant Version_32 := 16#dde34de3#;
-   pragma Export (C, u00084, "system__exp_intB");
-   u00085 : constant Version_32 := 16#11785907#;
-   pragma Export (C, u00085, "system__exp_intS");
-   u00086 : constant Version_32 := 16#0dcf11d5#;
-   pragma Export (C, u00086, "test_assertionsB");
-   u00087 : constant Version_32 := 16#1487d8c5#;
-   pragma Export (C, u00087, "test_assertionsS");
-   u00088 : constant Version_32 := 16#2323a8af#;
-   pragma Export (C, u00088, "system__memoryB");
-   u00089 : constant Version_32 := 16#512609cf#;
-   pragma Export (C, u00089, "system__memoryS");
+   u00084 : constant Version_32 := 16#52f1910f#;
+   pragma Export (C, u00084, "system__assertionsB");
+   u00085 : constant Version_32 := 16#c5d6436f#;
+   pragma Export (C, u00085, "system__assertionsS");
+   u00086 : constant Version_32 := 16#dde34de3#;
+   pragma Export (C, u00086, "system__exp_intB");
+   u00087 : constant Version_32 := 16#11785907#;
+   pragma Export (C, u00087, "system__exp_intS");
+   u00088 : constant Version_32 := 16#0dcf11d5#;
+   pragma Export (C, u00088, "test_assertionsB");
+   u00089 : constant Version_32 := 16#1487d8c5#;
+   pragma Export (C, u00089, "test_assertionsS");
+   u00090 : constant Version_32 := 16#2323a8af#;
+   pragma Export (C, u00090, "system__memoryB");
+   u00091 : constant Version_32 := 16#512609cf#;
+   pragma Export (C, u00091, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -301,6 +305,8 @@ package ada_main is
    --  system.file_io%b
    --  ada.text_io%s
    --  ada.text_io%b
+   --  system.assertions%s
+   --  system.assertions%b
    --  calculator%s
    --  calculator%b
    --  test_assertions%s

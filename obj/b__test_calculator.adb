@@ -20,8 +20,9 @@ package body ada_main is
    E74 : Short_Integer; pragma Import (Ada, E74, "ada__finalization_E");
    E73 : Short_Integer; pragma Import (Ada, E73, "system__file_io_E");
    E65 : Short_Integer; pragma Import (Ada, E65, "ada__text_io_E");
+   E85 : Short_Integer; pragma Import (Ada, E85, "system__assertions_E");
    E83 : Short_Integer; pragma Import (Ada, E83, "calculator_E");
-   E87 : Short_Integer; pragma Import (Ada, E87, "test_assertions_E");
+   E89 : Short_Integer; pragma Import (Ada, E89, "test_assertions_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -177,9 +178,11 @@ package body ada_main is
       Ada.Text_Io'Elab_Spec;
       Ada.Text_Io'Elab_Body;
       E65 := E65 + 1;
+      System.Assertions'Elab_Spec;
+      E85 := E85 + 1;
       E83 := E83 + 1;
       Test_Assertions'Elab_Spec;
-      E87 := E87 + 1;
+      E89 := E89 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -215,11 +218,11 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   /Users/adriangodoymartinez/Documents/Prácticas P3/practica1_pr3/obj/calculator.o
-   --   /Users/adriangodoymartinez/Documents/Prácticas P3/practica1_pr3/obj/test_assertions.o
-   --   /Users/adriangodoymartinez/Documents/Prácticas P3/practica1_pr3/obj/test_calculator.o
-   --   -L/Users/adriangodoymartinez/Documents/Prácticas P3/practica1_pr3/obj/
-   --   -L/Users/adriangodoymartinez/Documents/Prácticas P3/practica1_pr3/obj/
+   --   /Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/obj/calculator.o
+   --   /Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/obj/test_assertions.o
+   --   /Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/obj/test_calculator.o
+   --   -L/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/obj/
+   --   -L/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/obj/
    --   -L/users/adriangodoymartinez/opt/gnat/2018/lib/gcc/x86_64-apple-darwin16.7.0/7.3.1/adalib/
    --   -static
    --   -lgnat

@@ -5,9 +5,6 @@ package body Calculator with SPARK_Mode => On is
       n : Natural := 0;
    begin
       for i in reverse Octal'Range loop
-         if Octal(i) > 7 then
-            return 1;
-         end if;
          result := result + Octal(i) * (8 ** n);
          n := n + 1;
       end loop;

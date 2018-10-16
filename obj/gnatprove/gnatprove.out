@@ -6,14 +6,14 @@ SPARK Analysis results        Total        Flow   Interval   CodePeer     Prover
 ---------------------------------------------------------------------------------------------------------
 Data Dependencies                 .           .          .          .           .           .           .
 Flow Dependencies                 .           .          .          .           .           .           .
-Initialization                   18          18          .          .           .           .           .
+Initialization                   17          17          .          .           .           .           .
 Non-Aliasing                      .           .          .          .           .           .           .
-Run-time Checks                  16           .          .          .    4 (CVC4)           .          12
+Run-time Checks                  17           .          .          .    5 (CVC4)           .          12
 Assertions                        .           .          .          .           .           .           .
-Functional Contracts              .           .          .          .           .           .           .
+Functional Contracts              1           .          .          .           .           .           1
 LSP Verification                  .           .          .          .           .           .           .
 ---------------------------------------------------------------------------------------------------------
-Total                            34    18 (53%)          .          .     4 (12%)           .    12 (35%)
+Total                            35    17 (49%)          .          .     5 (14%)           .    13 (37%)
 
 
 Analyzed 3 units
@@ -21,8 +21,8 @@ in unit calculator, 5 subprograms and packages out of 5 analyzed
   Calculator at calculator.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
   Calculator.binaryToDecimal at calculator.ads:6 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 0 checks out of 6 proved
   Calculator.decimalToBinary at calculator.ads:7 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
-  Calculator.decimalToOctal at calculator.ads:9 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 2 checks out of 3 proved
-  Calculator.octalToDecimal at calculator.ads:8 flow analyzed (0 errors, 0 checks and 1 warnings) and not proved, 0 checks out of 5 proved
+  Calculator.decimalToOctal at calculator.ads:12 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 2 checks out of 3 proved
+  Calculator.octalToDecimal at calculator.ads:8 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 1 checks out of 7 proved
 in unit test_assertions, 0 subprograms and packages out of 4 analyzed
   Test_Assertions.Assert_False at test_assertions.ads:9 skipped
   Test_Assertions.Assert_False at test_assertions.ads:15 skipped

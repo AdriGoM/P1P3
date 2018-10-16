@@ -11,44 +11,45 @@ A -gnatc
 P GP FX
 
 RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U calculator%b		calculator.adb		973a595f OO PK
+U calculator%b		calculator.adb		632aaf97 OO PK
 
-U calculator%s		calculator.ads		eb5e8241 OO PK
+U calculator%s		calculator.ads		f167547d OO PK
 
-D calculator.ads	20181015123349 eb5e8241 calculator%s
-D calculator.adb	20181015125706 7c64db1e calculator%b
+D calculator.ads	20181016085700 f167547d calculator%s
+D calculator.adb	20181016085804 924dfbea calculator%b
 D system.ads		20180524051735 085b6ffb system%s
 X 1 calculator.ads
-1K9*Calculator 11l5 11e15 2|1b14 65l5 65t15
-3A10*booleanArray(boolean)<integer> 6r40 7r57 2|31r39 49r56 50r21
-4A10*octalArray(natural)<integer> 8r38 9r56 2|3r36 19r55 20r21
-6V14*binaryToDecimal{natural} 6>31 2|31b13 47l8 47t23
-6a31 Binary{3A10} 2|31b30 36r11 41r14
-7V14*decimalToBinary{3A10} 7>31 2|49b13 63l8 63t23
-7i31 Decimal{natural} 2|49b30 53r15
-8V14*octalToDecimal{natural} 8>30 2|3b13 17l8 17t22
-8a30 Octal{4A10} 2|3b29 8r24 9r13 13r29
-9V14*decimalToOctal{4A10} 9>30 2|19b13 29l8 29t22
-9i30 Decimal{natural} 2|19b29 23r15
+1K9*Calculator 14l5 14e15 2|1b14 60l5 60t15
+3A9*booleanArray(boolean)<integer> 6r39 7r56 2|26r39 44r56 45r21
+4A9*octalArray(natural)<integer> 8r37 12r55 2|3r36 14r55 15r21
+6V13*binaryToDecimal{natural} 6>30 2|26b13 42l8 42t23
+6a30 Binary{3A9} 2|26b30 31r11 36r14
+7V13*decimalToBinary{3A9} 7>30 2|44b13 58l8 58t23
+7i30 Decimal{natural} 2|44b30 48r15
+8V13*octalToDecimal{natural} 8>29 11r16 2|3b13 12l8 12t22
+8a29 Octal{4A9} 9r18 10r28 10r43 2|3b29 7r24 8r29
+10i23 x{integer} 10r49
+12V13*decimalToOctal{4A9} 12>29 2|14b13 24l8 24t22
+12i29 Decimal{natural} 2|14b29 18r15
 X 2 calculator.adb
-4i7 result{natural} 13m10 13r20 16r14
-5i7 n{natural} 12r30 14m10 14r15
-6i7 exponential{integer} 12m10 13r40
-8i11 i{integer} 9r19 13r35
-20a7 resultArray{1|4A10} 24r30 25m10 28r14
-21i7 rest{integer} 23m7 25r35 26m10 26r18
-24i11 counter{integer} 25r22
-32i7 result{integer} 37m10 42m13 42r23 46r15
-33i7 index{natural} 35m7 42r37 44m10 44r19
-40i12 counter{integer} 41r21
-50a7 resultArray{1|3A10} 56m13 58m13 62r14
-51i7 rest{natural} 53m7 55r14 60m10 60r18
-54i11 counter{integer} 56r25 58r25
+4i7 result{natural} 8m10 8r20 11r14
+5i7 n{natural} 8r46 9m10 9r15
+7i11 i{integer} 8r35
+15a7 resultArray{1|4A9} 19r30 20m10 23r14
+16i7 rest{integer} 18m7 20r35 21m10 21r18
+19i11 counter{integer} 20r22
+27i7 result{integer} 32m10 37m13 37r23 41r15
+28i7 index{natural} 30m7 37r37 39m10 39r19
+35i12 counter{integer} 36r21
+45a7 resultArray{1|3A9} 51m13 53m13 57r14
+46i7 rest{natural} 48m7 50r14 55m10 55r18
+49i11 counter{integer} 51r25 53r25
 
 QQ SPARKVERSION 2018 (20180523)
 GG EK_DIRECT_CALLS calculator__binarytodecimal 0

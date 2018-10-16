@@ -1,38 +1,218 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/default.gpr</vfs_file>
+    <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_file>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/default.gpr</vfs_project>
-      <vfs_file>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/src/test_calculator.adb</vfs_file>
+      <vfs_project />
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/default.gpr</vfs_project>
-      <vfs_file>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/src/test_assertions.ads</vfs_file>
+      <vfs_project />
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 41" line=" 15" >
+      <vfs_project />
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/default.gpr</vfs_project>
-      <vfs_file>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/src/test_assertions.adb</vfs_file>
+      <vfs_project />
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 42" line=" 15" >
+      <vfs_project />
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 8" >
+      <vfs_project />
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 9" >
+      <vfs_project />
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 8" >
+      <vfs_project />
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 10" >
+      <vfs_project />
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 39" line=" 8" >
+      <vfs_project />
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 9" >
+      <vfs_project />
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 20" >
+      <vfs_project />
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/default.gpr</vfs_project>
-      <vfs_file>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/src/test_assertions.ads</vfs_file>
+      <vfs_project />
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/SPARK_Lab_01/src/example.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 68" line=" 6" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 10" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 9" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/default.gpr</vfs_project>
-      <vfs_file>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/src/test_calculator.adb</vfs_file>
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/test_assertions.ads</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/default.gpr</vfs_project>
-      <vfs_file>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/src/test_assertions.adb</vfs_file>
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/test_assertions.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/default.gpr</vfs_project>
-      <vfs_file>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/src/calculator.ads</vfs_file>
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/test_assertions.ads</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 1" line=" 1" >
-      <vfs_project>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/default.gpr</vfs_project>
-      <vfs_file>/Users/adriangodoymartinez/Documents/Pra#204;#129;cticas P3/practica1_pr3/src/calculator.adb</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/test_calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 39" line=" 8" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 9" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 7" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 9" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 10" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 9" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 10" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 10" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 10" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 39" line=" 8" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 5" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 6" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 10" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 6" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 31" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 36" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 41" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 10" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 10" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 92" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/test_calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 47" line=" 10" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 10" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 9" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 10" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 6" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 7" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 6" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 10" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 6" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 8" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 9" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 9" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 16" line=" 10" >
+      <vfs_project>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr</vfs_project>
+      <vfs_file>/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/src/calculator.ads</vfs_file>
     </file_marker>
   </Project>
   <Project >

@@ -89,19 +89,20 @@ procedure Test_Calculator is
       prueba1 : octalArray(1 .. 3);
       prueba2 : octalArray(1 .. 4);
       prueba3 : octalArray(1 .. 10);
-      prueba4 : octalArray(1 .. 3);
+      --prueba4 : octalArray(1 .. 3);
+      --prueba5 := (0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2);
    begin
       prueba := (1,0);
       prueba1 := (1,7,2);
       prueba2 := (2,0,0,0);
       prueba3 := (2,3,4,5,6,7,7,4,1,2);
-      prueba4 := (8,8,8);
+     --prueba4 := (8,8,8);
 
       Assert_True (octalToDecimal(prueba) = 8, Msg);
       Assert_True (octalToDecimal(prueba1) = 122, Msg);
       Assert_True (octalToDecimal(prueba2) = 1024, Msg);
       Assert_True (octalToDecimal(prueba3) = 328695562, Msg);
-      Assert_True (octalToDecimal(prueba4) = 1, Msg);
+      --Assert_True (octalToDecimal(prueba4) = , Msg);
    exception
       when Test_Assertion_Error=>
          Put_Line (Msg & " Failed (assertion)");
