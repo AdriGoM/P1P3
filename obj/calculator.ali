@@ -9,56 +9,86 @@ A -mtune=core2
 A -mmacosx-version-min=10.14.0
 A -fPIC
 A -feliminate-unused-debug-symbols
-P SS ZX
+P ZX
 
 RN
-RV NO_SECONDARY_STACK
-RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLICIT_CONDITIONALS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U calculator%b		calculator.adb		67929983 NE OO PK
+U calculator%b		calculator.adb		2683441b NE OO PK
+Z interfaces%s		interfac.ads		interfac.ali
 Z system.assertions%s	s-assert.adb		s-assert.ali
-Z system.exp_int%s	s-expint.adb		s-expint.ali
-Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 
-U calculator%s		calculator.ads		f5df6269 EE NE OO PK
+U calculator%s		calculator.ads		50e89879 EE NE OO PK
 
 D ada.ads		20180524051735 76789da1 ada%s
 D a-unccon.ads		20180524051736 0e9b276f ada.unchecked_conversion%s
-D calculator.ads	20181016090335 f5df6269 calculator%s
-D calculator.adb	20181016085804 924dfbea calculator%b
+D calculator.ads	20181020183414 50e89879 calculator%s
+D calculator.adb	20181024194225 766bdc62 calculator%b
+D interfac.ads		20180524051734 5ab55268 interfaces%s
 D system.ads		20180524051735 085b6ffb system%s
 D s-assert.ads		20180524051736 cd8d2c94 system.assertions%s
 D s-exctab.ads		20180524051736 54135002 system.exception_table%s
-D s-expint.ads		20180524051736 192336fc system.exp_int%s
-D s-parame.ads		20180524051736 48ec542b system.parameters%s
-D s-secsta.ads		20180524051736 20bbe636 system.secondary_stack%s
 D s-stalib.ads		20180524051736 09bd3940 system.standard_library%s
-D s-stoele.ads		20180524051736 2dc34a04 system.storage_elements%s
 X 3 calculator.ads
-1K9*Calculator 13l5 13e15 4|1b14 60l5 60t15
-3A9*booleanArray(boolean)<integer> 6r39 7r56 4|26r39 44r56 45r21
-4A9*octalArray(natural)<integer> 8r37 11r55 4|3r36 14r55 15r21
-6V13*binaryToDecimal{natural} 6>30 4|26b13 42l8 42t23
-6a30 Binary{3A9} 4|26b30 31r11 36r14
-7V13*decimalToBinary{3A9} 7>30 4|44b13 58l8 58t23
-7i30 Decimal{natural} 4|44b30 48r15
-8V13*octalToDecimal{natural} 8>29 10r15 4|3b13 12l8 12t22
-8a29 Octal{4A9} 4|3b29 7r24 8r29
-11V13*decimalToOctal{4A9} 11>29 4|14b13 24l8 24t22
-11i29 Decimal{natural} 4|14b29 18r15
+1K9*Calculator 66l5 66e15 4|1b14 73l5 73t15
+3A9*naturalArray(natural)<integer> 5r34 5r53 5r93 21r32 21r51 21r91 34r38
+. 34r57 34r97 50r39 50r58 50r98 4|3r35 3r54 3r94 4r18 19r33 19r52 19r92 20r18
+. 35r39 35r58 35r98 36r18 54r40 54r59 54r99 55r18
+5V13*multiplyArrays{3A9} 5>29 5>48 5>67 15r41 17r32 19r32 4|3b14 17l9 17t23
+5a29 v1{3A9} 7r20 9r20 11r20 11r31 13r34 13r50 13r78 14r87 16r32 18r47 18r88
+. 19r59 4|3b30 4r34 5r28 7r24 8r30 10r42 10r54 14r49 14r76 14r135
+5a48 v2{3A9} 8r20 9r30 12r20 12r31 13r87 14r34 14r50 14r78 16r45 18r56 18r79
+. 19r65 4|3b49 8r40 14r89 14r141
+5i67 length{natural} 10r20 4|3b68
+13i29 x{integer} 13r53 13r81 13r90
+14i29 x{integer} 14r53 14r81 14r90
+15i36 k{integer} 16r35 16r48 17r54 18r50 18r59 18r82 18r91 19r54 19r62 19r68
+21V13*divideArrays{3A9} 21>27 21>46 21>65 31r41 32r33 4|19b14 33l9 33t21
+21a27 v1{3A9} 23r20 25r20 27r20 27r31 29r34 29r47 32r58 4|19b28 20r34 21r28
+. 23r24 24r30 26r42 26r54 30r49 30r85
+21a46 v2{3A9} 24r20 25r30 28r20 28r31 30r34 30r47 32r64 4|19b47 24r40 30r91
+21i65 length{natural} 26r20 4|19b66
+29i29 x{integer} 29r50
+30i29 x{integer} 30r50
+31i36 k{integer} 32r53 32r61 32r67
+34V13*biggerNumberArrays{3A9} 34>33 34>52 34>71 44r41 46r32 48r32 4|35b14
+. 52l9 52t27
+34a33 v1{3A9} 36r20 38r20 40r20 40r31 42r34 42r47 45r32 46r63 4|35b34 36r34
+. 37r28 39r24 40r16 41r34 46r45 46r57 47r36 47r92 48r36 48r88 49r49 49r76
+. 49r107
+34a52 v2{3A9} 37r20 38r30 41r20 41r31 43r34 43r47 45r40 48r63 4|35b53 40r28
+. 43r34 47r64 47r103 48r62 48r98 49r84 49r130
+34i71 length{natural} 39r20 4|35b72
+42i29 x{integer} 42r50
+43i29 x{integer} 43r50
+44i36 k{integer} 45r35 45r43 46r58 46r66 48r58 48r66
+50V13*smallerNumberArrays{3A9} 50>34 50>53 50>72 60r41 62r32 64r32 4|54b14
+. 71l9 71t28
+50a34 v1{3A9} 52r20 54r20 56r20 56r31 58r34 58r47 61r32 62r64 4|54b35 55r34
+. 56r28 58r24 59r16 60r34 65r45 65r57 66r36 66r92 67r36 67r88 68r49 68r76
+. 68r107
+50a53 v2{3A9} 53r20 54r30 57r20 57r31 59r34 59r47 61r40 64r64 4|54b54 59r28
+. 62r34 66r64 66r103 67r62 67r98 68r84 68r130
+50i72 length{natural} 55r20 4|54b73
+58i29 x{integer} 58r50
+59i29 x{integer} 59r50
+60i36 k{integer} 61r35 61r43 62r59 62r67 64r59 64r67
 X 4 calculator.adb
-4i7 result{natural} 8m10 8r20 11r14
-5i7 n{natural} 8r46 9m10 9r15
-7i11 i{integer} 8r35
-15a7 resultArray{3|4A9} 19r30 20m10 23r14
-16i7 rest{integer} 18m7 20r35 21m10 21r18
-19i11 counter{integer} 20r22
-27i7 result{integer} 32m10 37m13 37r23 41r15
-28i7 index{natural} 30m7 37r37 39m10 39r19
-35i12 counter{integer} 36r21
-45a7 resultArray{3|3A9} 51m13 53m13 57r14
-46i7 rest{natural} 48m7 50r14 55m10 55r18
-49i11 counter{integer} 51r25 53r25
+4a9 result{3|3A9} 8m13 14r104 14r123 16r16
+5i9 index{natural} 7r15 8r20 8r33 8r43 9m13 9r22 10r33 14r61
+14i44 k{integer} 14r79 14r92 14r111 14r130 14r138 14r144
+20a9 result{3|3A9} 24m13 30r73 32r16
+21i9 index{natural} 23r15 24r20 24r33 24r43 25m13 25r22 26r33 30r61
+30i44 k{integer} 30r80 30r88 30r94
+36a9 result{3|3A9} 41m17 43m17 47r47 47r75 48r46 48r72 49r95 49r118 51r16
+37i9 index{natural} 39r15 40r19 40r31 41r24 41r37 43r24 43r37 45m13 45r22
+. 46r36 49r61
+49i44 k{integer} 49r79 49r87 49r102 49r110 49r125 49r133
+55a9 result{3|3A9} 60m17 62m17 66r47 66r75 67r46 67r72 68r95 68r118 70r16
+56i9 index{natural} 58r15 59r19 59r31 60r24 60r37 62r24 62r37 64m13 64r22
+. 65r36 68r61
+68i44 k{integer} 68r79 68r87 68r102 68r110 68r125 68r133
 

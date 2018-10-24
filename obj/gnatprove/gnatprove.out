@@ -1,28 +1,28 @@
 Summary of SPARK analysis
 =========================
 
----------------------------------------------------------------------------------------------------------
-SPARK Analysis results        Total        Flow   Interval   CodePeer     Provers   Justified    Unproved
----------------------------------------------------------------------------------------------------------
-Data Dependencies                 .           .          .          .           .           .           .
-Flow Dependencies                 .           .          .          .           .           .           .
-Initialization                   17          17          .          .           .           .           .
-Non-Aliasing                      .           .          .          .           .           .           .
-Run-time Checks                  17           .          .          .    5 (CVC4)           .          12
-Assertions                        .           .          .          .           .           .           .
-Functional Contracts              1           .          .          .           .           .           1
-LSP Verification                  .           .          .          .           .           .           .
----------------------------------------------------------------------------------------------------------
-Total                            35    17 (49%)          .          .     5 (14%)           .    13 (37%)
+--------------------------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total        Flow   Interval   CodePeer                 Provers   Justified   Unproved
+--------------------------------------------------------------------------------------------------------------------
+Data Dependencies                 .           .          .          .                       .           .          .
+Flow Dependencies                 .           .          .          .                       .           .          .
+Initialization                   38          38          .          .                       .           .          .
+Non-Aliasing                      .           .          .          .                       .           .          .
+Run-time Checks                  55           .          .          .               55 (CVC4)           .          .
+Assertions                       24           .          .          .    24 (CVC4 97%, Z3 3%)           .          .
+Functional Contracts              4           .          .          .                4 (CVC4)           .          .
+LSP Verification                  .           .          .          .                       .           .          .
+--------------------------------------------------------------------------------------------------------------------
+Total                           121    38 (31%)          .          .                83 (69%)           .          .
 
 
 Analyzed 3 units
 in unit calculator, 5 subprograms and packages out of 5 analyzed
   Calculator at calculator.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
-  Calculator.binaryToDecimal at calculator.ads:6 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 0 checks out of 6 proved
-  Calculator.decimalToBinary at calculator.ads:7 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
-  Calculator.decimalToOctal at calculator.ads:12 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 2 checks out of 3 proved
-  Calculator.octalToDecimal at calculator.ads:8 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 1 checks out of 7 proved
+  Calculator.biggerNumberArrays at calculator.ads:34 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (22 checks)
+  Calculator.divideArrays at calculator.ads:21 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (16 checks)
+  Calculator.multiplyArrays at calculator.ads:5 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (23 checks)
+  Calculator.smallerNumberArrays at calculator.ads:50 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (22 checks)
 in unit test_assertions, 0 subprograms and packages out of 4 analyzed
   Test_Assertions.Assert_False at test_assertions.ads:9 skipped
   Test_Assertions.Assert_False at test_assertions.ads:15 skipped

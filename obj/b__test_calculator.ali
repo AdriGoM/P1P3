@@ -22,12 +22,12 @@ RV NO_ELABORATION_CODE
 RV NO_OBSOLESCENT_FEATURES
 RV SPARK_05
 
-U ada_main%b		b__test_calculator.adb	6de3232f OO PK IL
+U ada_main%b		b__test_calculator.adb	ae33c5f4 OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 Z system%s		system.ads		system.ali
 
-U ada_main%s		b__test_calculator.ads	0a945b03 EE NE OO PK IL
+U ada_main%s		b__test_calculator.ads	0245e561 EE NE OO PK IL
 W system%s		system.ads		system.ali
 W system.parameters%s	s-parame.adb		s-parame.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
@@ -35,8 +35,8 @@ W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 D ada.ads		20180524051735 76789da1 ada%s
 D a-except.ads		20180524051735 291912d5 ada.exceptions%s
 D a-unccon.ads		20180524051736 0e9b276f ada.unchecked_conversion%s
-D b__test_calculator.ads  20181016090336 6a9886e5 ada_main%s
-D b__test_calculator.adb  20181016090336 2e62b71f ada_main%b
+D b__test_calculator.ads  20181024194247 62493887 ada_main%s
+D b__test_calculator.adb  20181024194247 e563efa6 ada_main%b
 D system.ads		20180524051735 085b6ffb system%s
 D s-parame.ads		20180524051736 48ec542b system.parameters%s
 D s-secsta.ads		20180524051736 20bbe636 system.secondary_stack%s
@@ -48,7 +48,7 @@ X 1 ada.ads
 X 2 a-except.ads
 54K13*Exceptions 349e19 5|6w10
 X 4 b__test_calculator.ads
-6K9*ada_main 317l5 317e13 5|8b14 231l5 231t13
+6K9*ada_main 311l5 311e13 5|8b14 231l5 231t13
 8i4*gnat_argc{integer} 12m22 12r22 5|208m7
 9m4*gnat_argv{6|67M9} 13m22 13r22 5|209m7
 10m4*gnat_envp{6|67M9} 14m22 14r22 5|210m7
@@ -69,7 +69,6 @@ X 4 b__test_calculator.ads
 . 152r22 154r22 156r22 158r22 160r22 162r22 164r22 166r22 168r22 170r22 172r22
 . 174r22 176r22 178r22 180r22 182r22 184r22 186r22 188r22 190r22 192r22 194r22
 . 196r22 198r22 200r22 202r22 204r22 206r22 208r22 210r22 212r22 214r22 216r22
-. 218r22 220r22
 40m4*u00001{39M9} 41r22
 42m4*u00002{39M9} 43r22
 44m4*u00003{39M9} 45r22
@@ -159,8 +158,6 @@ X 4 b__test_calculator.ads
 212m4*u00087{39M9} 213r22
 214m4*u00088{39M9} 215r22
 216m4*u00089{39M9} 217r22
-218m4*u00090{39M9} 219r22
-220m4*u00091{39M9} 221r22
 X 5 b__test_calculator.adb
 10i4 E13{short_integer} 10m45 10r45 160m7 160r14
 11i4 E25{short_integer} 11m45 11r45 155m7 155r14
@@ -177,7 +174,7 @@ X 5 b__test_calculator.adb
 22i4 E65{short_integer} 22m45 22r45 36m7 36r14 180m7 180r14
 23i4 E85{short_integer} 23m45 23r45 182m7 182r14
 24i4 E83{short_integer} 24m45 24r45 183m7 183r14
-25i4 E89{short_integer} 25m45 25r45 185m7 185r14
+25i4 E87{short_integer} 25m45 25r45 185m7 185r14
 27a4 Sec_Default_Sized_Stacks(8|45R9) 147m32 147r32
 29a4 Local_Priority_Specific_Dispatching{string} 134r9
 30a4 Local_Interrupt_States{string} 137r27

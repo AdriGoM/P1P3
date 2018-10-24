@@ -1,19 +1,19 @@
 [GENERATED OBJECT FILE]
 b__test_calculator.o
 [PROJECT FILES]
-/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/default.gpr
+/Users/adriangodoymartinez/Documents/practica1_pr3 -new project/default.gpr
 20181014070926
 [BOUND OBJECT FILES]
-/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/obj/calculator.o
-/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/obj/test_assertions.o
-/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/obj/test_calculator.o
+/Users/adriangodoymartinez/Documents/practica1_pr3 -new project/obj/calculator.o
+/Users/adriangodoymartinez/Documents/practica1_pr3 -new project/obj/test_assertions.o
+/Users/adriangodoymartinez/Documents/practica1_pr3 -new project/obj/test_calculator.o
 [GENERATED SOURCE FILES]
 b__test_calculator.ads
 b__test_calculator.adb
 b__test_calculator.ali
 [RESULTING OPTIONS]
--L/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/obj/
--L/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/obj/
+-L/Users/adriangodoymartinez/Documents/practica1_pr3 -new project/obj/
+-L/Users/adriangodoymartinez/Documents/practica1_pr3 -new project/obj/
 -L/users/adriangodoymartinez/opt/gnat/2018/lib/gcc/x86_64-apple-darwin16.7.0/7.3.1/adalib/
 -static
 /users/adriangodoymartinez/opt/gnat/2018/lib/gcc/x86_64-apple-darwin16.7.0/7.3.1/adalib/libgnat.a

@@ -1,4 +1,4 @@
-20181016084943
+20181024194254
 -c
 -x
 ada
@@ -9,4 +9,4 @@ ada
 -gnata
 -gnat12
 -gnatc
--gnates=/Users/adriangodoymartinez/Documents/PracticasP3/practica1_pr3/obj/gnatprove/7b0d840b.tmp
+-gnates=/Users/adriangodoymartinez/Documents/practica1_pr3 -new project/obj/gnatprove/7012363c.tmp
